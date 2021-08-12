@@ -1,0 +1,38 @@
+.list {
+  list-style: none;
+}
+
+.item {
+  border: 1px solid rgb(235, 15, 15);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 5px rgb(111, 111, 136);
+}
+
+.item > span {
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(70, 2, 2);
+}
+
+.close {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  border: none;
+  background-color: red;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  font-size: 18px;
+  color: #ffc;
+  cursor: pointer;
+  transform: rotate(45deg);
+  padding: 0;
+}
